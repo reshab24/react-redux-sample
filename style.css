@@ -1,0 +1,19 @@
+h1, p {
+  font-family: Lato;
+}
+.closeMarkWrapper {
+   white-space: nowrap;
+    overflow-x: auto;
+}
+.todoListItem {
+  display: inline-block;
+  margin: 7px;
+}
+.closeMark {
+  display: none;
+}
+
+.closeMarkWrapper:hover > .closeMark{
+    display: inline-block;
+    cursor: pointer;
+}
